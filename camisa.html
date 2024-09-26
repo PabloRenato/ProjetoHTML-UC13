@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camisas</title>
+
+<style>
+    img{
+        display: flex;
+        width: 20%;
+    }
+    body{
+        background-color: orange;
+    }
+    ul{
+        padding: 10px;
+        text-align: center;
+        background-color: brown;
+    }
+    li{
+        display: inline;
+        margin: 15px;
+        background-color: brown;
+        font-size: 20px;
+    }
+    #Camisas{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);                     
+    }
+</style>
+</head>
+<body>
+    <ul>
+        <li><a href="index.html">Pagina Inicial</a></li>
+        <li><a href="produtos.html">Produtos</a></li>
+        <li><a href="lista.html">Lista</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="login.html">Login</a></li>
+    </ul>
+
+    <center><h1>Camisas</h1></center>
+    <hr>
+    <div id="Camisas">
+        <div>
+            <img src="img/camiseta1.avif" alt="Imagem da Camiseta Feminina Oxer Vivo Run"><h3>Camiseta Feminina Oxer Vivo Run </h3><h3>R$71,24</h3>
+            <button><a href="camisa1.html">COMPRAR</a></button>
+            <hr>
+        </div>
+        <div>
+            <img src="img/camiseta2.avif" alt="Imagem da Camiseta Feminina adidas Manga Curta Run It"><h3>Camiseta Feminina adidas Manga Curta Run It</h3><h3>R$104,49</h3>
+            <button><a href="camisa2.html">COMPRAR</a></button>
+            <hr>
+        </div>
+        <div>
+            <img src="img/camiseta3.avif" alt="Imagem da Camiseta Masculina Nike Manga Curta com Proteção UV Miler"><h3>Camiseta Masculina Nike Manga Curta com Proteção UV Miler </h3><h3>R$109,24</h3>
+            <button><a href="camisa3.html">COMPRAR</a></button>
+            <hr>
+            </div>
+    </div>
+</body>
+</html>

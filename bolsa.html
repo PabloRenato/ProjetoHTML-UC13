@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bolsas</title>
+
+<style>
+    img{
+        display: flex;
+        width: 20%;
+        border-width: 4px;
+        border-style: solid;
+        border-color: brown;
+    }
+    body{
+        background-color: orange;
+    }
+    ul{
+        padding: 10px;
+        text-align: center;
+        background-color: brown;
+    }
+    li{
+        display: inline;
+        margin: 15px;
+        background-color: brown;
+        font-size: 20px;
+    }
+    #bolsa{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);                     
+    }
+</style>
+</head>
+<body>
+    <ul>
+        <li><a href="index.html">Pagina Inicial</a></li>
+        <li><a href="produtos.html">Produtos</a></li>
+        <li><a href="lista.html">Lista</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="login.html">Login</a></li>
+    </ul>
+
+    <center><h1>Bolsas</h1></center>
+    <hr>
+    <div id="bolsa">
+        <div>
+            <img src="img/bolsa1.avif" alt="Imagem da Mala Puma Fundamentals Sports S"><h3>Mala Puma Fundamentals Sports S</h3><h3>R$184,99</h3>
+            <button>COMPRAR</button>
+            <hr>
+        </div>
+        <div>
+            <img src="img/bolsa2.avif" alt="Imagem da Bolsa Duffel Nike Gym Club - Feminina"><h3>Bolsa Duffel Nike Gym Club - Feminina</h3><h3>R$289,99</h3>
+            <button>COMPRAR</button>
+            <hr>
+        </div>
+        <div>
+            <img src="img/bolsa3.avif" alt="Imagem da Bolsa Fila Mixed - 28 Litros"><h3>Bolsa Fila Mixed - 28 Litros</h3><h3>R$189,99</h3>
+            <button>COMPRAR</button>
+            <hr>
+        </div>
+    </div>
+</body>
+</html>
